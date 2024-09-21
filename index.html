@@ -172,6 +172,26 @@
     </div>
   </section>
   <!-- End paper abstract -->
+
+  <!-- Overview -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Overview</h2>
+          <p>
+            As robots become more common in human-centered environment, we want them to be able to not only satisfy static and well-defined constraints, such as fixed obstacles, but also personalized and context-dependent safety requirements. Our key idea is to combine vision-language models for semantic constraint inference with efficient warm-started updates of a Hamilton-Jacobi Reachability-based safety controller.
+          </p>
+          <img src="static/images/framework.png" alt="MY ALT TEXT" class="mt-4 mb-4"/>
+          <p>
+            Offline, the robot has an initial failure set which encodes all physical constraints in the environment (e.g. walls, furniture that does not move), and computes the corresponding safe set and safety policy. Online, the person describes their semantic constraint. Using a vision-language model, the robot converts the language-image data into a new failure set. This, along with the previously-computed safe set, are used to efficiently update the safety filter that shields the robot.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End overview -->
+
   <!-- Video carousel -->
   <section class="hero is-small">
     <div class="hero-body">
